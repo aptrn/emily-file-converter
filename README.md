@@ -10,6 +10,8 @@ This tool converts `.emily` files to the required output format by:
 
 ## Usage
 
+Grab the latest release in `.zip` format from the [release section](https://github.com/aptrn/emily-file-converter/releases/) and extract the archive.
+
 **For Single Files:**
 
 1. Drag and drop your `.emily` file onto `convert_emily.bat`
