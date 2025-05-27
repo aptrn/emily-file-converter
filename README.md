@@ -43,19 +43,3 @@ To this format:
 MOVEJ/  +6.164479 , -90.070457 , +106.966484 , -159.613678 , +17.954603 , +160.530121
 MOVEJ/  +6.164479 , -90.070457 , +106.966484 , -159.613678 , +17.954603 , +160.530121
 ```
-
-## Notes
-
-- All numbers are preserved exactly, including minus signs
-- Empty lines and invalid data rows are automatically skipped
-- Files without `[RECORDS]` sections are skipped with a warning
-- Output files use UTF-8 encoding
-- The script handles both Windows and Unix line endings
-
-## Troubleshooting
-
-If you get a PowerShell execution policy error, you can run this command in an administrator PowerShell window:
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
